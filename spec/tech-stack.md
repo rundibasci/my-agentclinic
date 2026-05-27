@@ -15,7 +15,7 @@ AgentClinic should use a popular, TypeScript-first stack that is easy to explain
 - Web framework: a mainstream TypeScript-friendly framework suitable for server-rendered pages and dashboard workflows.
 - UI: browser-based dashboard with accessible forms, tables, and navigation.
 - Data model: agents, ailments, therapies, appointments, staff notes, and recovery status.
-- Testing: start with focused unit tests for domain rules, then add integration tests for booking flows.
+- Testing: use Vitest for validation, starting with focused unit tests for domain rules and then adding integration tests for booking flows.
 
 ## Stack Principles
 
@@ -30,5 +30,6 @@ AgentClinic should use a popular, TypeScript-first stack that is easy to explain
 - Keep TypeScript strict enough to teach clear contracts.
 - Define domain types before building screens.
 - Use server-side TypeScript when introducing application routes.
+- Use `npm run test` to run Vitest validation tests.
 - Add persistence only after the core domain model and user flows are clear.
 - Keep styling practical, modern, and dashboard-oriented.
