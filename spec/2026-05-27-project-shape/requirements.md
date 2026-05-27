@@ -13,6 +13,7 @@ Included in this phase:
 - Add a minimal AgentClinic home page.
 - Add a reusable main layout component with header, main, and footer subcomponents.
 - Add and import a dedicated CSS file for layout styling.
+- Ensure the home page and main layout follow responsive design.
 - Add a health route.
 - Verify the project builds.
 
@@ -35,6 +36,7 @@ Excluded from this phase:
 - Prefer a working minimal app over early abstraction.
 - Let the home page introduce the product without implementing later workflows.
 - Keep the layout structure small, explicit, and easy to extend for future routes.
+- Use responsive CSS rules so the first product UI works across mobile and desktop viewports.
 
 ## Context
 
@@ -49,6 +51,8 @@ The tech stack guidance favors popular, TypeScript-first tools, server-side Type
 The home page should provide a first visible product signal. It should name AgentClinic, briefly describe its purpose, and show simple placeholders for future areas: agents, ailments, therapies, and appointments.
 
 The implementation should include an application shell component that frames pages with a header, main content region, and footer. The shell should own layout-level CSS through a dedicated imported stylesheet.
+
+The product UI should use responsive design from the first phase. The home page cards should reflow from a multi-column desktop layout into a stacked mobile layout, and the application shell should avoid text overlap or horizontal scrolling at common viewport sizes.
 
 ## Non-Goals
 

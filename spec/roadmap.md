@@ -24,7 +24,7 @@ This roadmap orders implementation in very small phases. Each phase should produ
 - Create the main dashboard layout.
 - Show summary counts for agents, ailments, therapies, and appointments.
 - Add navigation between placeholder sections.
-- Verify the layout works in a modern browser.
+- Verify the layout works in modern browsers across mobile, tablet, and desktop viewport sizes.
 
 ## Phase 4: Agent Registry
 
