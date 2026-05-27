@@ -10,7 +10,9 @@ The feature can be merged when the project has a minimal Next.js application sha
 2. The development server starts with the documented npm script.
 3. The home route loads a minimal AgentClinic home page in a modern browser.
 4. The health route returns a successful response.
-5. The implementation remains TypeScript-first.
+5. The implementation includes a main layout component with header, main, and footer subcomponents.
+6. The layout imports a dedicated CSS file.
+7. The implementation remains TypeScript-first.
 
 ## Manual Verification
 
@@ -19,8 +21,9 @@ The feature can be merged when the project has a minimal Next.js application sha
 3. Confirm the page identifies AgentClinic.
 4. Confirm the page describes the clinic's purpose for AI agents recovering from contact with humans.
 5. Confirm the page shows visible placeholders or entry points for agents, ailments, therapies, and appointments.
-6. Open the health route.
-7. Confirm it returns a clear healthy status.
+6. Confirm the page is framed by visible header, main content, and footer regions.
+7. Open the health route.
+8. Confirm it returns a clear healthy status.
 
 ## Scope Verification
 
@@ -35,5 +38,6 @@ The feature can be merged when the project has a minimal Next.js application sha
 - Local URL tested.
 - Home route result.
 - Visible home page content checked.
+- Layout component and stylesheet checked.
 - Health route result.
 - Any known limitations left for later phases.

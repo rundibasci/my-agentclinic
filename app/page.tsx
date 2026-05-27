@@ -19,7 +19,7 @@ const clinicAreas = [
 
 export default function Home() {
   return (
-    <main className="home">
+    <div className="home">
       <section className="intro" aria-labelledby="page-title">
         <p className="eyebrow">Spec-driven care platform</p>
         <h1 id="page-title">AgentClinic</h1>
@@ -38,6 +38,6 @@ export default function Home() {
           </article>
         ))}
       </section>
-    </main>
+    </div>
   )
 }

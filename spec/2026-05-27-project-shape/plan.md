@@ -30,13 +30,24 @@
 4. Keep these entry points non-functional or placeholder-only in this phase.
 5. Keep the page simple, readable, and useful for course students and conference booth demos.
 
-## 5. Verify Build and Local Run
+## 5. Add Main Layout Component
+
+1. Create a main layout component for the application shell.
+2. Split the layout into three subcomponents:
+   - Header
+   - Main
+   - Footer
+3. Move shared page frame styling into a dedicated CSS file.
+4. Import the layout CSS file from the layout component so the styles are linked to the component.
+5. Keep the layout generic enough for later AgentClinic routes.
+
+## 6. Verify Build and Local Run
 
 1. Add or update npm scripts for development and production build.
 2. Run the build command.
 3. Run the local app and confirm the home route and health route respond.
 
-## 6. Keep Scope Clean
+## 7. Keep Scope Clean
 
 1. Do not add persistence.
 2. Do not implement dashboard sections.

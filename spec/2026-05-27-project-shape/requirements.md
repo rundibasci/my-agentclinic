@@ -11,6 +11,8 @@ Included in this phase:
 - Confirm the application framework.
 - Add a minimal app entry point.
 - Add a minimal AgentClinic home page.
+- Add a reusable main layout component with header, main, and footer subcomponents.
+- Add and import a dedicated CSS file for layout styling.
 - Add a health route.
 - Verify the project builds.
 
@@ -32,6 +34,7 @@ Excluded from this phase:
 - Keep the first implementation intentionally small for spec-driven development teaching.
 - Prefer a working minimal app over early abstraction.
 - Let the home page introduce the product without implementing later workflows.
+- Keep the layout structure small, explicit, and easy to extend for future routes.
 
 ## Context
 
@@ -45,6 +48,8 @@ The tech stack guidance favors popular, TypeScript-first tools, server-side Type
 
 The home page should provide a first visible product signal. It should name AgentClinic, briefly describe its purpose, and show simple placeholders for future areas: agents, ailments, therapies, and appointments.
 
+The implementation should include an application shell component that frames pages with a header, main content region, and footer. The shell should own layout-level CSS through a dedicated imported stylesheet.
+
 ## Non-Goals
 
 - No database schema.
@@ -53,3 +58,4 @@ The home page should provide a first visible product signal. It should name Agen
 - No production deployment configuration.
 - No visual polish beyond a minimal usable page.
 - No working clinic-area pages beyond the minimal home and health routes.
+- No complex navigation system beyond basic layout framing.

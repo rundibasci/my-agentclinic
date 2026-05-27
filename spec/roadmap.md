@@ -2,12 +2,12 @@
 
 This roadmap orders implementation in very small phases. Each phase should produce a working, reviewable slice before the next phase begins.
 
-## Phase 1: Project Shape
+## Phase 1: Project Shape - Complete
 
-- Confirm the application framework.
-- Add a minimal app entry point.
-- Add a health check or home route.
-- Verify the project builds.
+- [x] Confirm the application framework.
+- [x] Add a minimal app entry point.
+- [x] Add a health check or home route.
+- [x] Verify the project builds.
 
 ## Phase 2: Domain Vocabulary
 
