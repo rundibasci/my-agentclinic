@@ -1,0 +1,112 @@
+:root {
+  color: #17211b;
+  background: #f7f5ef;
+  font-family:
+    Arial,
+    Helvetica,
+    sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  min-height: 100%;
+  margin: 0;
+}
+
+body {
+  background: #f7f5ef;
+}
+
+.home {
+  min-height: 100vh;
+  padding: 48px;
+}
+
+.intro {
+  max-width: 760px;
+  margin-bottom: 40px;
+}
+
+.eyebrow {
+  margin: 0 0 12px;
+  color: #4a6d63;
+  font-size: 0.86rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+h1,
+h2,
+p {
+  margin-top: 0;
+}
+
+h1 {
+  margin-bottom: 16px;
+  font-size: 4rem;
+  line-height: 1;
+}
+
+.lede {
+  margin-bottom: 0;
+  color: #34423a;
+  font-size: 1.35rem;
+  line-height: 1.45;
+}
+
+.areas {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 16px;
+}
+
+.area {
+  min-height: 190px;
+  padding: 22px;
+  border: 1px solid #d5d0c3;
+  border-radius: 8px;
+  background: #fffdf8;
+}
+
+.area h2 {
+  margin-bottom: 12px;
+  font-size: 1.1rem;
+}
+
+.area p {
+  color: #4a534d;
+  line-height: 1.5;
+}
+
+.area span {
+  display: inline-block;
+  margin-top: 16px;
+  color: #6d5842;
+  font-size: 0.82rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+@media (max-width: 860px) {
+  .home {
+    padding: 32px 20px;
+  }
+
+  h1 {
+    font-size: 3rem;
+  }
+
+  .areas {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 560px) {
+  .areas {
+    grid-template-columns: 1fr;
+  }
+}
