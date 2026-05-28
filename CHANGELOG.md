@@ -1,5 +1,10 @@
 # Changelog
 
+## 2026-05-28
+
+- Planned the Phase 2 domain vocabulary feature with scope, tasks, and merge validation.
+- Added Pico.css as the lightweight CSS framework choice for future responsive UI styling.
+
 ## 2026-05-27
 
 - Added responsive UI requirements to the product and feature specs.
