@@ -2,6 +2,7 @@
 
 ## 2026-05-28
 
+- Implemented the TypeScript domain vocabulary with in-memory sample data and validation tests.
 - Planned the Phase 2 domain vocabulary feature with scope, tasks, and merge validation.
 - Added Pico.css as the lightweight CSS framework choice for future responsive UI styling.
 
